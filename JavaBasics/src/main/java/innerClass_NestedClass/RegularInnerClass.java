@@ -33,7 +33,12 @@ class Outer{
 public class RegularInnerClass {
 	public static void main(String[] args) {
 		Outer out = new Outer();
+		//out.new Inner().add().minus();
+		//out.multipy();
+		
+		
 		Outer.Inner inner= out.new Inner();
+		
 		System.out.println(inner.add()+inner.name+" "+ out.age);
 		out.multipy();
 	}

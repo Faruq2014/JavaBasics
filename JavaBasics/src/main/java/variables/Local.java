@@ -6,7 +6,8 @@ public class Local {
 	public static void main(String[] args) {
 		Local v2= new Local();
 		v2.faruq();
-		v2.khaled();
+		khaled();
+		v2.jui();
 
 	}
 
@@ -19,6 +20,12 @@ public class Local {
 		
 		int age = 30;
 	      System.out.println(" khaled is "+age);
+	     
+	}
+	
+	public void jui() {
+		double hair=300000000.444;
+		System.out.println(hair);
 	}
 
 }

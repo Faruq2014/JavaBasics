@@ -30,13 +30,29 @@
 			// it is a void method.
 			System.out.println(age+" "+name);
 		}
+		
 		}
 		
 		public class ChainingRegularMethod {
 		
 			public static void main(String[] args) {
 				number num= new number(4);
-				num.add(35).name("Faruq").print();
+				//num.add(30);
+				//num.name("Khaled");
+				//num.print();
+				
+				//num.add(25).name("younes").print();
+				
+				//num.print();
+				num.add(29).name("kamal").print();
+				
+				
+				
+				
+				
+				
+				
+				//num.add(35).name("Faruq").print();
 				// add and name is a return type but print is void method.
 				// as a result: we can not call print method in the begaining or 
 				// in the middle. because void method can not have any return.

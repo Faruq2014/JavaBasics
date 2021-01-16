@@ -7,8 +7,10 @@ public class Static {
 	public static void main(String[] args) {
 		Static v2= new Static();
 		v2.faruq();
-		v2.khaled();
-
+		khaled();
+		v2.saleh();
+		jui();
+   
 	}
 
 	private void faruq() {
@@ -21,6 +23,15 @@ public class Static {
 		Lastname="Molla";
 		int age = 30;
 	      System.out.println(" khaled is "+Lastname);
+	}
+	
+	public void saleh() {
+		Lastname="chowdhury";
+		System.out.println(Lastname);
+	}
+	public static void jui() {
+		Lastname="Jui";
+		System.out.println(Lastname);
 	}
 
 }
