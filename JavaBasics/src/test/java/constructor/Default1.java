@@ -1,10 +1,10 @@
 package constructor;
 
-public class Default {
+public class Default1 {
  
 
 	public static void main(String[] args) {
-		Default d = new Default();// default constructor
+		Default1 d = new Default1();// default constructor
 		d.m1();
 
 	}
