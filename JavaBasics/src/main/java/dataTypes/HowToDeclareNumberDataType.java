@@ -9,7 +9,9 @@ public class HowToDeclareNumberDataType {
 	public static void main(String[] args) {
 		// full number data type
 		byte balance = 123;
+		//byte balance1 = 9876;// you might go out of range
 		int checkingBalance = 1234567890;
+		//int checkingBalance1 = 9876543210;// you might go out of rance
 		//int checkingBalance1 = 9876543210;//even thoug it still 10 digit but no gurentee that java will allow.
 		long savingBalance = 1234567890123456789l;// l at the end
 

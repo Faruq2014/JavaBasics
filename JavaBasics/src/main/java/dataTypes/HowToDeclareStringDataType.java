@@ -3,10 +3,10 @@ package dataTypes;
 public class HowToDeclareStringDataType {
 
 	public static void main(String[] args) {
-	String firstName="Mohammed";
+	String firstName="Mohammed0@*)9";
 	String lastName="Faruq";
 	
-	//String is the data type
+	//String is the data type  
 	//it has not limitation for range
 	// you must put value inside the ""
 	
